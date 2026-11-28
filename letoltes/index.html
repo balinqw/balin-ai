@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090711">
+  <meta name="description" content="Töltsd le a BΛLIN AI-t Androidra, Windowsra, vagy használd a böngészős változatot.">
+  <title>Letöltés — BΛLIN AI</title>
+  <link rel="canonical" href="https://balinai.com/letoltes/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <style>
+    :root{color-scheme:dark;--bg:#090711;--panel:#151120;--line:#302640;--text:#f8f5ff;--muted:#aaa3ba;--purple:#8d4be6}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#281441 0,transparent 48%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1040px,calc(100% - 36px));margin:auto}
+    header{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff14}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.04em}.brand img{width:40px;height:40px;border-radius:12px}
+    .back{color:#cdb4f2;font-size:14px}.hero{text-align:center;padding:72px 0 42px}.eyebrow{display:inline-block;padding:6px 12px;border:1px solid #9a65e34d;background:#7b3bd21a;border-radius:99px;color:#d9c0ff;font-size:12px}
+    h1{font-size:clamp(38px,7vw,64px);line-height:1.05;letter-spacing:-.055em;margin:20px 0 12px}.hero p{color:var(--muted);max-width:620px;margin:auto}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;padding:22px 0 42px}
+    .card{display:flex;flex-direction:column;padding:25px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#191426,#100e18);min-height:320px}
+    .icon{width:50px;height:50px;display:grid;place-items:center;border-radius:15px;background:#8243d52a;color:#d4b5ff;font-size:25px;margin-bottom:18px}
+    h2{font-size:22px;margin:0 0 5px}.desc{font-size:14px;color:var(--muted);margin:0 0 18px}.status{font-size:12px;color:#d8c0fa;margin-bottom:14px}
+    .btn{display:flex;align-items:center;justify-content:center;min-height:46px;padding:0 15px;border-radius:12px;background:linear-gradient(120deg,#8d4be6,#6326bd);font-weight:750;font-size:13px;margin-top:auto}
+    .btn.alt{background:#ffffff08;border:1px solid var(--line);margin-top:10px}.btn.disabled{background:#ffffff08;border:1px solid var(--line);color:#948ba2;cursor:not-allowed}
+    .info{border:1px solid var(--line);background:#ffffff06;border-radius:18px;padding:20px 22px;margin:0 0 60px;color:var(--muted);font-size:13px}
+    .info strong{color:var(--text)}footer{border-top:1px solid #ffffff14;padding:24px 0;color:#8f879e;font-size:12px}
+    @media(max-width:760px){.cards{grid-template-columns:1fr}.card{min-height:270px}.hero{padding-top:55px}}
+  </style>
+</head>
+<body>
+<header class="wrap"><a class="brand" href="/"><img src="/logo.svg" alt=""><span>BΛLIN AI</span></a><a class="back" href="/">← Vissza a főoldalra</a></header>
+<main class="wrap">
+  <section class="hero"><span class="eyebrow">HIVATALOS LETÖLTŐKÖZPONT</span><h1>BΛLIN AI<br>minden eszközödön.</h1><p>Válaszd ki, hol szeretnéd használni. A telepítők kiadását fokozatosan tesszük elérhetővé.</p></section>
+  <section class="cards" aria-label="Platformok">
+    <article class="card"><div class="icon">▣</div><h2>Android</h2><p class="desc">Androidos telefonokra és táblagépekre.</p><div class="status">● Az APK még nincs publikálva</div><a class="btn" href="https://github.com/balinqw/balinqw-BalinAI-Android/releases" target="_blank" rel="noopener">Android kiadások megtekintése ↗</a><a class="btn alt" href="https://github.com/balinqw/balinqw-BalinAI-Android" target="_blank" rel="noopener">Android projekt · GitHub</a></article>
+    <article class="card"><div class="icon">▱</div><h2>Windows</h2><p class="desc">Windows 10 és 11 rendszerű számítógépekre.</p><div class="status">● A telepítő fejlesztés alatt</div><span class="btn disabled" aria-disabled="true">Hamarosan</span><a class="btn alt" href="https://github.com/balinqw/balin-ai" target="_blank" rel="noopener">Projekt · GitHub</a></article>
+    <article class="card"><div class="icon">◎</div><h2>Webes változat</h2><p class="desc">Használd böngészőből, telepítés nélkül. A chatfelület még fejlesztés alatt áll.</p><div class="status">● A webes chat hamarosan</div><span class="btn disabled" aria-disabled="true">Hamarosan</span><a class="btn alt" href="/" >BΛLIN AI weboldal megnyitása</a></article>
+  </section>
+  <aside class="info"><strong>Fontos:</strong> Jelenleg még nincs közzétett Android APK vagy Windows telepítő, ezért ezen az oldalon nem jelenik meg nem ellenőrzött letöltés. Amint elkészülnek a telepítők, itt találod majd a hivatalos fájlokat és a verzióinformációkat.</aside>
+</main>
+<footer><div class="wrap">© <span id="year"></span> BΛLIN AI · <a href="/">balinai.com</a></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
